@@ -9,6 +9,8 @@ cd storjmon-linux
 
 vim (or other editor) config.json # paste the server key generated in your storjmon.com account
 
+npm install
+
 npm install pm2 -g
 
 pm2 start storjmon-agent.js --name storjmon
